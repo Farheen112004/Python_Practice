@@ -1,4 +1,7 @@
 fruits = ['orange', 'apple', 'pear', 'banana', 'kiwi', 'apple', 'banana']
+del fruits[0] #to del at specific place in list
+print(fruits)
+
 s= fruits.count('apple')
 print(s)
 
@@ -24,3 +27,4 @@ print(fruits)
 
 s8= fruits.pop()
 print(fruits)
+
